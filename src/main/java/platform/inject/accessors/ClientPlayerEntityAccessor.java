@@ -1,0 +1,20 @@
+package platform.inject.accessors;
+
+import net.minecraft.client.network.ClientPlayerEntity;
+import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.gen.Accessor;
+
+@Mixin(ClientPlayerEntity.class)
+public interface ClientPlayerEntityAccessor {
+   @Accessor("lastYawClient")
+   float getLastYaw();
+
+   @Accessor("lastPitchClient")
+   float getLastPitch();
+
+   @Accessor("lastSprinting")
+   void setWasSprinting(boolean bl);
+
+   @Accessor("lastSprinting")
+   boolean getWasSprinting();
+}

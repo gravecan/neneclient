@@ -1,0 +1,3 @@
+Edited TitleScreenMixin and ProfilePanel compile with minimal stubs.
+6 isolated behavior checks passed: direct menu, existing menu, screenshare, local profile, removed key controls, absent activation labels.
+Not a full build or Minecraft runtime integration test.

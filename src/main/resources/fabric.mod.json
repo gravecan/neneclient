@@ -1,0 +1,47 @@
+{
+    "schemaVersion": 1,
+    "id": "neneclient",
+    "version": "3.0.14",
+    "name": "NeneClient",
+    "description": "By Ded",
+    "authors": [
+        "By Ded"
+    ],
+    "contact": {
+        "homepage": "https://fabricmc.net/",
+        "sources": "https://github.com/FabricMC/fabric-example-mod"
+    },
+    "license": "Minecraft EULA",
+    "icon": "assets/neneclient/icon.png",
+    "environment": "client",
+    "entrypoints": {
+        "client": [
+            "platform.Initializer"
+        ]
+    },
+    "mixins": [
+        "neneclient.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.16.5",
+        "minecraft": "~1.21.11",
+        "java": ">=21",
+        "fabric-api": "*"
+    },
+    "suggests": {
+        "another-mod": "*"
+    },
+    "jars": [
+        {
+            "file": "META-INF/jars/json-20250107.jar"
+        }
+    ],
+    "custom": {
+        "modmenu": {
+            "badges": [
+                "library"
+            ],
+            "parent": "apple-skin"
+        }
+    }
+}

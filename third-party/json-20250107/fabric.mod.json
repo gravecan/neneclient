@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "id": "org_json_json",
+  "version": "20250107",
+  "name": "json",
+  "custom": {
+    "fabric-loom:generated": true
+  }
+}

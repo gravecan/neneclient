@@ -1,0 +1,3 @@
+Java source files parsed: 603
+Java 21 syntax errors: 0
+Parsing only; type resolution, dependencies and full compilation were not checked.

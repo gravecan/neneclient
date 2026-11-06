@@ -1,0 +1,8 @@
+Classes retained: 777
+Methods checked: 5408
+Originally resolvable in-JAR member references checked: 27950
+Non-Minecraft external member names checked for preservation: 10696
+Records checked (component/field/accessor consistency): 9
+Method opcode sequences: unchanged
+Failures: 0
+These are structural checks, not compilation or runtime equivalence tests.

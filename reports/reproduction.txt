@@ -1,0 +1,4 @@
+Regenerate.ps1 completed successfully from the original input JAR in a new output directory.
+All 603 generated and edited Java source files are byte-identical to the delivered main source tree.
+The regenerated run also passed structural checks, Java 21 parsing and 6 isolated behavior tests.
+This does not establish a successful full Fabric build or in-game operation.

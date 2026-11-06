@@ -1,0 +1,40 @@
+source	change
+aethereal/autobuy/AutobuyComponent007.java	modified
+aethereal/autobuy/AutobuyComponent010.java	modified
+aethereal/command/AhCommand.java	modified
+aethereal/command/BindCommand.java	modified
+aethereal/command/CccCommand.java	modified
+aethereal/command/CfgCommand.java	modified
+aethereal/config/ListProcessor.java	modified
+aethereal/config/ModuleManager.java	modified
+aethereal/config/ThemeManager.java	modified
+aethereal/core/NeneClient.java	modified
+aethereal/friend/FriendManager.java	modified
+aethereal/license/LicenseComponent157.java	removed client activation source
+aethereal/license/LicenseManager.java	removed client activation source
+aethereal/license/LicenseScreen.java	removed client activation source
+aethereal/macro/MacroManager.java	modified
+aethereal/module/misc/AutoBuy.java	modified
+aethereal/module/misc/Collector.java	modified
+aethereal/module/visuals/ArrayList.java	modified
+aethereal/module/visuals/Watermark.java	modified
+aethereal/network/ProxyManager.java	modified
+aethereal/ui/ClientSettingsScreen.java	modified
+aethereal/ui/element/DragProcessor.java	modified
+aethereal/ui/element/ElementComponent210.java	modified
+aethereal/ui/element/TextField.java	modified
+aethereal/ui/screen/MainMenuScreen.java	modified
+aethereal/ui/screen/MenuRenderer.java	modified
+aethereal/ui/screen/ProfilePanel.java	modified
+aethereal/ui/screen/ScreenComponent212.java	modified
+aethereal/ui/screen/ScreenComponent214.java	modified
+aethereal/ui/screen/ScreenComponent215.java	modified
+aethereal/ui/screen/ScreenComponent216.java	modified
+aethereal/ui/screen/ScreenComponent217.java	modified
+aethereal/ui/screen/ScreenComponent218.java	modified
+aethereal/ui/screen/ScreenComponent219.java	removed client activation source
+aethereal/ui/screen/ScreenComponent226.java	modified
+aethereal/ui/screen/ScreenComponent227.java	modified
+aethereal/ui/widget/WidgetComponent241.java	modified
+aethereal/ui/widget/WidgetComponent243.java	modified
+platform/inject/mixin/TitleScreenMixin.java	modified

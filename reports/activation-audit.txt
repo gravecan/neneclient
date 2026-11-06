@@ -1,0 +1,4 @@
+Nene activation implementation/UI/endpoint references remaining: 0
+Main Java files after removal: 603
+Resources retained: 91
+No blanket deletion of authentication code: proxy authentication and Minecraft account login were retained.

@@ -1,0 +1,17 @@
+   private void renderProfile(DrawContext context, int x, int y, int width, int height, float opacity) {
+      performAction_2904(context, x, y, width, 198, 8, computeValue_2897(0xFFFFFF, 0.05F * opacity));
+      String username = MinecraftClient.getInstance().getSession().getUsername();
+      String initial = username.isEmpty() ? "?" : username.substring(0, 1).toUpperCase(Locale.ROOT);
+      performAction_2904(context, x + 14, y + 14, 62, 62, 10, computeValue_2897(ACCENT, opacity));
+      context.drawText(this.textRenderer, initial, x + 45 - this.textRenderer.getWidth(initial) / 2,
+         y + 41, computeValue_2897(0xFFFFFF, opacity), true);
+      context.drawText(this.textRenderer, username, x + 90, y + 26, computeValue_2897(0xFFFFFF, opacity), true);
+      context.drawText(this.textRenderer, "LOCAL PROFILE", x + 90, y + 46,
+         computeValue_2897(ACCENT, opacity), false);
+      context.drawText(this.textRenderer, "NENECLIENT", x + 90, y + 66,
+         computeValue_2897(0xFFFFFF, 0.55F * opacity), false);
+      context.drawText(this.textRenderer, "No client activation required.", x + 14, y + 106,
+         computeValue_2897(0xFFFFFF, 0.75F * opacity), false);
+      context.drawText(this.textRenderer, "Minecraft account login is unchanged.", x + 14, y + 128,
+         computeValue_2897(0xFFFFFF, 0.45F * opacity), false);
+   }
